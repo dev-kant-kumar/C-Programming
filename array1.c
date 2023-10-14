@@ -13,4 +13,5 @@ int main()
      {
         printf("Final price of iteam %d is %f \n",i,final_price[i]);
      }
+  return 0;   
  }
