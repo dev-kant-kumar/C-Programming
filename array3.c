@@ -16,9 +16,18 @@ int main()
 
  void reverse_array(int array[],int size)
   {
-    printf("Reverse of array is below \n");
-    for(int i=size;i>0;i--)
+    
+    for(int i=0;i<size/2;i++)
      {
-        printf("%d \t",i);
+        int firstval=array[i];
+        int secondval=array[size-i-1];
+        array[i]=secondval;
+        array[size-i-1]=firstval;
+        
      }
-  }
+  printf("Reverse of array is below \n");
+  for(int i=0;i<size;i++)
+   {
+    printf("%d \t",array[i]);
+   }
+  } 
