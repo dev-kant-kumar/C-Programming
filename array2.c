@@ -7,7 +7,7 @@ int main()
     printf("Enter the numbers as asked below \n");
     for(int i=0;i<6;i++)
      {
-        printf("Enter the %d number: ",i);
+        printf("Enter the %d number: ",i+1);
         scanf("%d",&num[i]);
      }
      printf("Total no of odd numbers =%d \n",odd_count(num,6));
