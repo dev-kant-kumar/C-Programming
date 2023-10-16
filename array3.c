@@ -7,7 +7,7 @@ int main()
     printf("Enter 5 elements of array as asked below \n");
     for(int i=0;i<5;i++)
      {
-        printf("Enter %d elements :",i);
+        printf("Enter %d elements :",i+1);
         scanf("%d",&num[i]);
      }
      reverse_array(num,5);
