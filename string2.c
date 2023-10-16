@@ -2,10 +2,16 @@
 #include<stdio.h>
 #include<string.h>
 int main()
- {
+ { 
+    char firstName[50];
     char fullname[50];
-    printf("Enter your name: ");
+   //  printf("Enter your first name : ");
+   //  scanf("%s",firstName);
+   //  printf(" Your first name is %s \n",firstName);
+
+    // Second part of program
+    printf("Enter your full name: ");
     scanf("%[^\n]s",fullname); 
-    printf("%s",fullname);
+    printf(" Your full name is %s",fullname);
     return 0;
  }
