@@ -3,9 +3,10 @@
 int main()
  {
     char name[]="Dev Kant Kumar";
-    for(int i=0;name[i]!='\0'; i++)
-     {
-        printf("%c",name[i]);
-     }
+    // for(int i=0;name[i]!='\0'; i++)
+    //  {
+    //     printf("%c",name[i]);
+    //  }
+    printf("%s",name);
     return 0;
  }
