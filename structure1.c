@@ -1,4 +1,4 @@
-// Very first program on structure 
+// This program takes inputs of students data and print their data back to them
 #include<stdio.h>
 struct student {
     int rollno;
