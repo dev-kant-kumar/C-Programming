@@ -66,6 +66,7 @@ void MatrixMul( int a, int b, int c, int d)
      for(int i=0;i<a;i++)
       {
         for(int j=0;j<d;j++)
+
          {
            P[i][j]=0;
            for(int k=0;k<d;k++)
@@ -77,9 +78,9 @@ void MatrixMul( int a, int b, int c, int d)
     // Printing Matrix Multiplication 
     printf("\n");
     printf("Multiplication of Matrices are below \n");
-     for(int i=0;i<b;i++)
+     for(int i=0;i<a;i++)
       {
-        for(int j=0;j<c;j++)
+        for(int j=0;j<d;j++)
          {
           printf("%d \t",P[i][j]);
          }
