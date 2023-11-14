@@ -12,7 +12,7 @@ int main()
 void is_armstrong(int n)
  {
     int reminder,count=0,sum=0,i,num=n,num1=n;
-    // this part will find numbers of digits of entered number and store in count
+    // Find the numbers of digits of input number and store it in count.
     while(n!=0)
      {
         reminder=n%10;
@@ -21,7 +21,7 @@ void is_armstrong(int n)
 
      }
     printf("This number has %d digits \n",count); 
-    // this part will raise the power of digits to last number and calculating sum 
+    // Calculate the sum of the digits raised to the power of the number of digits.
     for(i=0;i<count;i++)
      {
         reminder=num%10;
@@ -30,6 +30,7 @@ void is_armstrong(int n)
 
      } 
     printf("Sum is %d \n",sum); 
+    // Check if the sum of the digits is equal to the original input number.
     if(sum==num1)
      {
         printf("Entered number is an armstrong number \n");
