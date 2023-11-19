@@ -12,7 +12,7 @@ int main()
         str[i]=ch;
         i++;
      }
-    str[i]='\n';
+    str[i]='\0';
     puts(str);
     return 0; 
  }
