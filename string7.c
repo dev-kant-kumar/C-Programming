@@ -1,7 +1,7 @@
 // Write a function named slice, which takes a string and returns a sliced string from n to m.
 #include<stdio.h>
 #include<string.h>
-void slice(char str[],int index1,int index2);
+void slice(char str[],int index1,int index2); //index1=n,index2=m.
 int main()
  {
     char a[17];
