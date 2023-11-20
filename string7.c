@@ -6,7 +6,7 @@ int main()
  {
     char a[17];
     int index1,index2;
-    printf("Maximum length of string should not be exceed 16 characters \n\n");
+    printf("Maximum length of string should not be exceed 16 characters \n");
     printf("Enter your string : ");
     fgets(a,50,stdin);
     printf("Enter starting index for slicing : ");
@@ -19,17 +19,11 @@ int main()
 void slice(char str[], int index1,int index2)
  {
     char sliced[17];
-    for(int i=0;i<strlen(str);i++)
+    int i,j=0;
+    for(i=index1;i<=index2;i++,j++)
      {
-        if(i>=index1 && i<=index2)
-         {
-            sliced[i]=str[i];
-         }
+       sliced[j]=str[i];
      }
-    printf("Sliced string is as :"); 
-    for(int i=index1;i<=index2;i++)
-     {
-        printf("%c",sliced[i]);
-     }
-
+    sliced[j]='\0';
+    printf("Sliced string is as : %s \n",sliced);
  }
