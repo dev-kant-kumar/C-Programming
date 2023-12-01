@@ -6,7 +6,7 @@ int main()
     int roll;
     char name[100];
     float marks;
-    ptr=fopen("newfile.txt","r");
+    ptr=fopen("file2.txt","r");
     fscanf(ptr,"%d",&roll);
     printf("ROLL : %d \t",roll);
 
