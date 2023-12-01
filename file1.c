@@ -3,7 +3,7 @@
 int main()
  {
     FILE *fptr;
-    fptr=fopen("test.txt","r"); 
+    fptr=fopen("file1.txt","r"); 
     if(fptr==NULL)
      {
         printf("File doesn't exist \n");
